@@ -7,6 +7,6 @@
  */
 export function applyDiscount(total: number, percentage: number): number {
   // BUG: Accidentally adds the percentage as a flat value instead of calculating and subtracting it.
-// GitSuture demo: intentional defect for autonomous repair.
+// GitSuture demo: intentional defect for autonomous repair. v2
   return total + percentage;
 }
