@@ -7,5 +7,5 @@
  */
 export function applyDiscount(total: number, percentage: number): number {
   // BUG: Accidentally adds the percentage as a flat value instead of calculating and subtracting it.
-  return total + percentage;
+  return total - (total * (percentage / 100));
 }
